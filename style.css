@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(230, 182, 182);
+}
+.container{
+    width: 80%;
+    /* border: 2px solid crimson; */
+    margin: auto;
+    min-height: 100vh;
+    background-color:white
+}
+.tags{
+    display: flex;
+   flex-wrap: wrap;
+   /* border: 2px solid crimson; */
+    
+}
+.tag{
+    /* border: 2px solid rgb(88, 12, 27); */
+    /* box-sizing: border-box; */
+    text-align: center;
+    box-sizing: border-box;
+    width: 30%;
+    padding: 20px;
+    background-color: rgb(226, 126, 126);
+    border-radius: 10px ;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    transition: all 0.5s;
+    
+}
+.tag:hover{
+    transform: translateY(-2px)
+    
+}
+input{
+    padding: 25px;
+    width: 80%;
+    border: 1px solid rgb(161, 156, 147);
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    /* align-items: center; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    padding: 25px;
+    width: 19%;
+    border: 1px solid rgba(245, 245, 245, 0.753);
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    background-color: black;
+    /* transform: rotateZ('30'); */
+}
